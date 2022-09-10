@@ -1,25 +1,22 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
+import Home from './Home';
+import LocationList from './LocationList';
+import MyDestinations from './MyDestinations';
+import LocationForm from './LocationForm';
 
 function App() {
-  const [locations, setLocations] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:3000/locations')
-      .then(res => res.json())
-      .then(data => setLocations(data));
-  }, [])
-
-  const test = locations.map(location => {
-    return (
-      <img key={location.name} src={location.image} />
-    )
-  })
-
   return (
-    <div>
-      <h1>Test</h1>
-      {test}
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/locations' element={<LocationList />} />
+        <Route path='/mydestinations' element={<MyDestinations />} />
+        <Route path='/submitnewlocation' element={<LocationForm />} />
+      </Routes>
+    </Router>
   )
 }
 
