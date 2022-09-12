@@ -1,6 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+  font-family: 'Klee One', cursive;
+  color: white;
+}
 .cards {
   margin: 0 auto;
   display: grid;
@@ -52,4 +57,32 @@ body {
 
 h3 {
   color: #70515f;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  background-color: #89a894;
+}
+
+nav a {
+  display: inline-flex;
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #ADFCF9;
+  color: #341c1c;
+  transition: 0.3s;
+}
+
+.navactive {
+  border-bottom: 1px solid #ADFCF9;
+  color: #341c1c;
 }
