@@ -1,15 +1,42 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0px 0px 0px 0px;
 }
 
 .logo {
   font-family: 'Klee One', cursive;
   color: white;
 }
+
+.home {
+  margin: 50px; 
+  position: absolute;
+  top: 40%;
+  color: white;
+}
+
+.home h1 {
+ font-size: 36px;
+}
+
+.home h2 {
+ font-size: 24px;
+}
+
+.homevideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+
+}
+
 .cards {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   place-items: center;
 }
@@ -28,17 +55,23 @@ body {
   padding: 0px 10px 20px 10px;
 }
 
+.containerS {
+  display: flex;
+  padding: 2px 0px 2px 0px; 
+  justify-content: space-between;
+}
+
 .containerSS {
   display: flex;
-  padding: 2px 10px 2px 10px; 
+  padding: 2px 5px 2px 10px; 
   justify-content: space-between;
   align-items: center;
 }
 
 .Button {
-  background-color: #d7e6e0; /* Green */
+  background-color: #d7e6e0; 
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   color: black;
   padding: 5px;
   text-align: center;
@@ -55,16 +88,37 @@ body {
   color: white;
 }
 
+.buttonhome {
+  background-color: #d7e6e0; 
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.6s;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 4px 2px;
+}
+
+.buttonhome:hover {
+  background-color: #49393B;
+  color: white;
+}
+
 h3 {
-  color: #70515f;
+  color: #341c1c;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px 0px 20px;
-  background-color: #89a894;
+  padding: 0px 50px 0px 50px;
+  margin: none;
+  background-color: #BCC1BA;
 }
 
 nav a {
@@ -85,4 +139,41 @@ nav a:hover {
 .navactive {
   border-bottom: 1px solid #ADFCF9;
   color: #341c1c;
+}
+
+/* styles for destination search bar */
+.search-container {
+  display: block;
+  margin: 20px;
+}
+
+.search-box {
+  background: pink;
+  height: 25px;
+  max-width: 30%;
+  min-width: 200px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.search-text {
+  float: left;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.search-button {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px -25px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #ADFCF9,
 }
