@@ -9,7 +9,7 @@ function NavBar() {
       </div>
       <nav>
         <NavLink className={({ isActive }) => (isActive ? 'navactive' : '')} to='/'>HOME</NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'navactive' : '')} to='/locations'>DESTINATIONS</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? 'navactive' : '')} to='/destinations'>DESTINATIONS</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'navactive' : '')} to='/mydestinations'>SAVED DESTINATIONS</NavLink>
         <NavLink className={({ isActive }) => (isActive ? 'navactive' : '')} to='/submitnewlocation'>SUBMIT DESTINATION</NavLink>
       </nav>

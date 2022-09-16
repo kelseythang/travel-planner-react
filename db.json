@@ -1,11 +1,11 @@
 {
-  "locations": [
+  "destinations": [
     {
       "id": 1,
       "name": "Kiyomizu-dera Temple",
       "image": "https://a.cdn-hotels.com/gdcs/production184/d1612/12c8731c-afae-4a11-a3e3-e792eaa16061.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Kyoto, Japan",
+      "location": "Kyoto",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -14,7 +14,7 @@
       "name": "Nijo Castle",
       "image": "https://dskyoto.s3.amazonaws.com/gallery/full/1514/5559/8500/04-20140407_NijoCastle-32.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Kyoto, Japan",
+      "location": "Kyoto",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "castle"
     },
@@ -23,7 +23,7 @@
       "name": "Senso-ji Temple",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -32,7 +32,7 @@
       "name": "Senso-ji Temple1",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -41,7 +41,7 @@
       "name": "Senso-ji Temple2",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -50,7 +50,7 @@
       "name": "Senso-ji Temple3",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -59,7 +59,7 @@
       "name": "Senso-ji Temple4",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
@@ -68,7 +68,7 @@
       "name": "Senso-ji Temple5",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo, Japan",
+      "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     }

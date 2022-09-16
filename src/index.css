@@ -144,16 +144,26 @@ nav a:hover {
 /* styles for destination search bar */
 .search-container {
   display: block;
-  margin: 20px;
+  margin: 0px 0px 20px 0px;
 }
 
+.search-container img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0px 0px 20px 0px;
+  z-index: -1;
+}
 .search-box {
+  position: absolute;
+  top: 20%;
   background: pink;
   height: 25px;
   max-width: 30%;
   min-width: 200px;
   border-radius: 20px;
   padding: 10px 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 .search-text {
