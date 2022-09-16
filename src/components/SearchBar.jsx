@@ -2,7 +2,8 @@ import React from 'react'
 import headerImg from '../assets/searchcover.jpeg'
 import SearchIcon from '@mui/icons-material/Search';
 
-function SearchBar({ locations, onSearchDestinations, searchValue, setSearchValue }) {
+function SearchBar({ searchValue, setSearchValue }) {
+
   return (
     <div className='search-container'>
       <img src={headerImg}></img>
