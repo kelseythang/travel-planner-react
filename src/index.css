@@ -1,3 +1,4 @@
+/* global styles */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px 0px 0px 0px;
@@ -37,16 +38,17 @@ nav a:hover {
   color: white;
 }
 
+
 /* styles for home component */
 .home {
   margin: 50px; 
   position: absolute;
   top: 40%;
-  color: white;
 }
 
 .home h1 {
  font-size: 36px;
+ color: white;
 }
 
 .home h2 {
@@ -148,7 +150,8 @@ h3 {
 }
 
 .search-container img {
-  height: 250px;
+  position: relative;
+  height: 225px;
   width: 100%;
   object-fit: cover;
   margin: 0px 0px 20px 0px;
@@ -157,13 +160,13 @@ h3 {
 .search-box {
   position: absolute;
   top: 60%;
+  left: 10%;
   background: #e2fdfd;
   height: 25px;
   max-width: 40%;
   min-width: 200px;
   border-radius: 20px;
   padding: 10px 20px;
-  margin: 20px 20px 10px 150px;
 }
 
 .search-text {
@@ -175,3 +178,16 @@ h3 {
   line-height: 25px;
 }
 
+/* global header styles */
+.header {
+  z-index: 1;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 0;
+}
+
+.header h1 {
+  color: #341c1c;
+  margin-bottom: 0;
+}
