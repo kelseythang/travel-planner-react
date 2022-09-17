@@ -8,7 +8,8 @@
       "location": "Kyoto",
       "type": "temple",
       "likes": "21,421",
-      "website": "https://www.kiyomizudera.or.jp/en/"
+      "website": "https://www.kiyomizudera.or.jp/en/",
+      "isBookmarked": false
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "location": "Kyoto",
       "type": "castle",
       "likes": "15,231",
-      "website": "https://nijo-jocastle.city.kyoto.lg.jp/?lang=en"
+      "website": "https://nijo-jocastle.city.kyoto.lg.jp/?lang=en",
+      "isBookmarked": false
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "location": "Tokyo",
       "type": "temple",
       "likes": "28,321",
-      "website": "https://www.senso-ji.jp/"
+      "website": "https://www.senso-ji.jp/",
+      "isBookmarked": false
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "location": "Kyoto",
       "type": "shrine",
       "likes": "19,212",
-      "website": "http://inari.jp/en/"
+      "website": "http://inari.jp/en/",
+      "isBookmarked": false
     },
     {
       "id": 5,

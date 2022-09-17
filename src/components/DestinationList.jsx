@@ -6,7 +6,6 @@ import '../index.css';
 function DestinationList() {
   const [destinations, setDestinations] = useState([]); 
   const [searchValue, setSearchValue] = useState('');
-  const [isBookmarked, setBookmark] = useState(false);
   
   // useEffect to fetch destinations
   useEffect(() => {
@@ -24,6 +23,22 @@ function DestinationList() {
   // updates destination based on search value field 
   const updatedDestinations = (searchValue === '') ? destinations : filteredDestinations;
 
+  // 
+  function handleToggleComplete(id) {
+      const newState = destinations.map(obj => {
+        // 👇️ if id equals 2, update country property
+        if (obj.id === id) {
+          return {...obj, isBookmarked: !obj.isBookmarked};
+          
+        }
+        return obj;
+      })
+        // 👇️ otherwise return object as is
+      console.log(newState)
+      setDestinations(newState);
+    
+  }
+
   return (
     <>
       <SearchBar searchValue={searchValue} onSearchValueChange={setSearchValue} />
@@ -38,8 +53,9 @@ function DestinationList() {
               description={destination.description} 
               likes={destination.likes}
               website={destination.website}
-              isBookmarked={isBookmarked}
-              onSetBookmark={setBookmark}
+              id={destination.id}
+              isBookmarked={destination.isBookmarked}
+              handleToggleComplete={handleToggleComplete}
             />
           )
         })}
