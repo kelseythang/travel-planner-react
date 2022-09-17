@@ -4,33 +4,41 @@
       "id": 1,
       "name": "Kiyomizu-dera Temple",
       "image": "https://a.cdn-hotels.com/gdcs/production184/d1612/12c8731c-afae-4a11-a3e3-e792eaa16061.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
+      "description": "Kiyomizu-dera (清水寺) is best known for its wooden stage that juts out from its main hall, 13 meters above the hillside. The stage affords nice views of the numerous cherry and maple trees below that erupt in a sea of color in spring and fall, as well as of the city of Kyoto in the distance. The main hall, which together with the stage was built without the use of nails, houses the temple's primary object of worship, a small statue of the eleven faced, thousand armed Kannon.",
       "location": "Kyoto",
-      "type": "temple"
+      "type": "temple",
+      "likes": "21,421",
+      "website": "https://www.kiyomizudera.or.jp/en/"
     },
     {
       "id": 2,
       "name": "Nijo Castle",
       "image": "https://dskyoto.s3.amazonaws.com/gallery/full/1514/5559/8500/04-20140407_NijoCastle-32.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
+      "description": "Nijo Castle (二条城, Nijōjō) was built in 1603 as the Kyoto residence of Tokugawa Ieyasu, the first shogun of the Edo Period (1603-1867). His grandson Iemitsu completed the castle's palace buildings 23 years later and further expanded the castle by adding a five story castle keep.",
       "location": "Kyoto",
-      "type": "castle"
+      "type": "castle",
+      "likes": "15,231",
+      "website": ""
     },
     {
       "id": 3,
       "name": "Senso-ji Temple",
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
+      "description": "Sensoji (浅草寺, Sensōji, also known as Asakusa Kannon Temple) is a Buddhist temple located in Asakusa. It is one of Tokyo's most colorful and popular temples. The temple was completed in 645, making it Tokyo's oldest temple.",
       "location": "Tokyo",
-      "type": "temple"
+      "type": "temple",
+      "likes": "28,321",
+      "website": ""
     },
     {
       "id": 4,
       "name": "Fushimi Inari Shrine",
       "image": "https://www.omamori.com/img/cms/temples-shrines/fushimi-inari-taisha.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
+      "description": "Fushimi Inari Shrine (伏見稲荷大社, Fushimi Inari Taisha) is an important Shinto shrine in southern Kyoto. It is famous for its thousands of vermilion torii gates, which straddle a network of trails behind its main buildings. The trails lead into the wooded forest of the sacred Mount Inari, which stands at 233 meters and belongs to the shrine grounds. Fushimi Inari is the most important of several thousands of shrines dedicated to Inari, the Shinto god of rice. Foxes are thought to be Inari's messengers, resulting in many fox statues across the shrine grounds. Fushimi Inari Shrine has ancient origins, predating the capital's move to Kyoto in 794.",
       "location": "Kyoto",
-      "type": "shrine"
+      "type": "shrine",
+      "likes": "19,212",
+      "website": ""
     },
     {
       "id": 5,
@@ -38,7 +46,9 @@
       "image": " https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/1200px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Nara",
-      "type": "temple"
+      "type": "temple",
+      "likes": "12,587",
+      "website": ""
     },
     {
       "id": 6,
@@ -46,7 +56,9 @@
       "image": "https://travel.gaijinpot.com/app/uploads/sites/6/2019/05/Meiji-Jingu-2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Tokyo",
-      "type": "shrine"
+      "type": "shrine",
+      "likes": "22,165",
+      "website": ""
     },
     {
       "id": 7,

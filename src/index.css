@@ -3,123 +3,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
-.logo {
-  font-family: 'Klee One', cursive;
-  color: white;
-}
-
-.home {
-  margin: 50px; 
-  position: absolute;
-  top: 40%;
-  color: white;
-}
-
-.home h1 {
- font-size: 36px;
-}
-
-.home h2 {
- font-size: 24px;
-}
-
-.homevideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-
-}
-
-/* styles for destination cards */ 
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px; 
-  margin: 20px 150px 10px 150px;
-}
-
-.card { 
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  justify-content: space-between;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card img {
-  display: block;
-  width: 100%;
-}
-
-.card-container-left {
-  float: left;
-  width: 200px;
-}
-
-.card-container-left h3 {
-  margin: 5px 0px 2px 10px;
-}
-
-.card-container-left p {
-  margin: 0px 0px 2px 10px;
-  font-weight: 100;
-}
-
-.card-container-right {
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.Button {
-  background-color: #d7e6e0; 
-  border: none;
-  border-radius: 8px;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.6s;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 100;
-  margin: 4px 2px;
-}
-
-.Button:hover {
-  background-color: #49393B;
-  color: white;
-}
-
-.buttonhome {
-  background-color: #d7e6e0; 
-  border: none;
-  border-radius: 8px;
-  color: black;
-  padding: 10px 20px 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.6s;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 100;
-  margin: 4px 2px;
-}
-
-.buttonhome:hover {
-  background-color: #49393B;
-  color: white;
-}
-
-h3 {
-  color: #341c1c;
-}
-
+/* navigation bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -148,9 +32,117 @@ nav a:hover {
   border-bottom: 1px solid #ADFCF9;
   color: #341c1c;
 }
+.logo {
+  font-family: 'Klee One', cursive;
+  color: white;
+}
+
+/* styles for home component */
+.home {
+  margin: 50px; 
+  position: absolute;
+  top: 40%;
+  color: white;
+}
+
+.home h1 {
+ font-size: 36px;
+}
+
+.home h2 {
+ font-size: 24px;
+}
+
+.homevideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+/* styles for destination cards */ 
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px; 
+  margin: 20px 150px 10px 150px;
+}
+
+.card { 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  display: block;
+  width: 100%;
+}
+
+.card-container-left {
+  width: 20%;
+  margin: 0px 10px 5px 0px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.card-container-left h3 {
+  margin: 5px 0px 2px 10px;
+}
+
+.card-container-left p {
+  margin: 0px 0px 2px 10px;
+  font-weight: 100;
+}
+
+.card-container-right {
+  margin: 10px;
+}
+
+.card-container-right-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #d7e6e0; 
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.6s;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 4px 2px;
+}
+
+.button:hover {
+  background-color: #49393B;
+  color: white;
+}
+
+h3 {
+  color: #341c1c;
+}
 
 /* styles for destination search bar */
 .search-container {
+  position: relative;
   display: block;
   margin: 0px 0px 20px 0px;
 }
@@ -164,14 +156,14 @@ nav a:hover {
 }
 .search-box {
   position: absolute;
-  top: 20%;
-  background: pink;
+  top: 60%;
+  background: #e2fdfd;
   height: 25px;
-  max-width: 30%;
+  max-width: 40%;
   min-width: 200px;
   border-radius: 20px;
   padding: 10px 20px;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 10px 150px;
 }
 
 .search-text {
@@ -183,15 +175,3 @@ nav a:hover {
   line-height: 25px;
 }
 
-.search-button {
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: -10px -25px;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  border: none;
-  background: #ADFCF9,
-}

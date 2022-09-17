@@ -29,7 +29,15 @@ function DestinationList() {
       <div className='cards'> 
         {updatedDestinations.map(destination => {
           return (
-            <Destination key={destination.name} image={destination.image} name={destination.name} location={destination.location} description={destination.description} />
+            <Destination 
+              key={destination.name}
+              image={destination.image} 
+              name={destination.name} 
+              location={destination.location} 
+              description={destination.description} 
+              likes={destination.likes}
+              website={destination.website}
+            />
           )
         })}
       </div>
