@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
-import Destination from './Destination';
 import '../index.css';
+import BrowseDestinations from './BrowseDestinations';
 
 function DestinationList() {
   const [destinations, setDestinations] = useState([]); 
@@ -41,25 +40,8 @@ function DestinationList() {
 
   return (
     <>
-      <SearchBar searchValue={searchValue} onSearchValueChange={setSearchValue} />
-      <div className='cards'> 
-        {updatedDestinations.map(destination => {
-          return (
-            <Destination 
-              key={destination.name}
-              image={destination.image} 
-              name={destination.name} 
-              location={destination.location} 
-              description={destination.description} 
-              likes={destination.likes}
-              website={destination.website}
-              id={destination.id}
-              isBookmarked={destination.isBookmarked}
-              handleToggleComplete={handleToggleComplete}
-            />
-          )
-        })}
-      </div>
+      <BrowseDestinations searchValue={searchValue} setSearchValue={setSearchValue} updatedDestinations={updatedDestinations} />
+ 
     </>
   )
 }
