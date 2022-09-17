@@ -28,18 +28,15 @@ function App() {
   // updates destination based on search value field 
   const updatedDestinations = (searchValue === '') ? destinations : filteredDestinations;
 
-  function handleToggleComplete(id) {
-    const newState = destinations.map(obj => {
-        // 👇️ if id equals 2, update country property
-      if (obj.id === id) {
-        return {...obj, isBookmarked: !obj.isBookmarked};
-          
+  // toggles isBookmarked 
+  function handleBookmarkChange(id) {
+    const updateBookmark = destinations.map(item => {
+      if (item.id === id) {
+        return {...item, isBookmarked: !item.isBookmarked};
       }
-    return obj;
-    })
-        // 👇️ otherwise return object as is
-    console.log(newState)
-    setDestinations(newState);
+    return item;
+    });
+    setDestinations(updateBookmark);
   }
 
   return (
@@ -47,7 +44,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/destinations' element={<BrowseDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} handleToggleComplete={handleToggleComplete} />} />
+        <Route path='/destinations' element={<BrowseDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
         <Route path='/mydestinations' element={<MyDestinations />} />
         <Route path='/submitnewlocation' element={<DestinationForm />} />
       </Routes>

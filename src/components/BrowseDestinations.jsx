@@ -2,7 +2,7 @@ import React, { useEffect }  from 'react'
 import SearchBar from './SearchBar';
 import Destination from './Destination';
 
-function BrowseDestinations({ searchValue, setSearchValue, destinations, handleToggleComplete }) {
+function BrowseDestinations({ searchValue, setSearchValue, destinations, onBookmarkChange }) {
   // // 
   // function handleToggleComplete(id) {
   //     const newState = destinations.map(obj => {
@@ -35,7 +35,7 @@ function BrowseDestinations({ searchValue, setSearchValue, destinations, handleT
               website={destination.website}
               id={destination.id}
               isBookmarked={destination.isBookmarked}
-              handleToggleComplete={handleToggleComplete}
+              onBookmarkChange={onBookmarkChange}
             />
           )
         })}
