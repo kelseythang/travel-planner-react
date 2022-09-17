@@ -18,7 +18,7 @@
       "location": "Kyoto",
       "type": "castle",
       "likes": "15,231",
-      "website": ""
+      "website": "https://nijo-jocastle.city.kyoto.lg.jp/?lang=en"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "location": "Tokyo",
       "type": "temple",
       "likes": "28,321",
-      "website": ""
+      "website": "https://www.senso-ji.jp/"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "location": "Kyoto",
       "type": "shrine",
       "likes": "19,212",
-      "website": ""
+      "website": "http://inari.jp/en/"
     },
     {
       "id": 5,

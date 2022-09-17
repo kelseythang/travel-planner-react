@@ -2,7 +2,7 @@ import React from 'react';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 
-function Destination({ image, name, location, description, likes, website }) {
+function Destination({ image, name, location, description, likes, website, isBookmarked, onSetBookmark }) {
   return (
     <div className='card'>
       <div className='card-container-left'>
@@ -15,11 +15,13 @@ function Destination({ image, name, location, description, likes, website }) {
           <p>{description}</p>
        </div>
         <div className='card-container-right-bottom'>
-         <p>{likes} </p><ThumbUpIcon />
+         <p>{likes} </p>
+         <ThumbUpIcon />
          <p style={{fontWeight: '100'}}>|</p>
-         <p>Bookmark </p><BookmarkBorderIcon />
+         <p>{!isBookmarked ? 'Bookmark' : 'Remove Bookmark'} </p>
+         <BookmarkBorderIcon onClick={() => onSetBookmark(!isBookmarked)} />
          <p style={{fontWeight: '100'}}>|</p>
-         <button className="buttonhome">Website</button>
+         <button className='button' onClick={() => window.open(website, '_blank', 'noopener,noreferrer')}>Website</button>
        </div>
       </div>
     </div> 

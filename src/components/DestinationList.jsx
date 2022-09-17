@@ -6,6 +6,7 @@ import '../index.css';
 function DestinationList() {
   const [destinations, setDestinations] = useState([]); 
   const [searchValue, setSearchValue] = useState('');
+  const [isBookmarked, setBookmark] = useState(false);
   
   // useEffect to fetch destinations
   useEffect(() => {
@@ -37,6 +38,8 @@ function DestinationList() {
               description={destination.description} 
               likes={destination.likes}
               website={destination.website}
+              isBookmarked={isBookmarked}
+              onSetBookmark={setBookmark}
             />
           )
         })}
