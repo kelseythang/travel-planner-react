@@ -1,9 +1,9 @@
 import React from 'react';
 
-function LocationForm() {
+function DestinationForm() {
   return (
     <div>LocationForm</div>
   )
 }
 
-export default LocationForm;
+export default DestinationForm;

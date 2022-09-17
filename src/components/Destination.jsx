@@ -1,6 +1,7 @@
 import React from 'react';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
+import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 function Destination({ image, name, location, description, likes, website, id, isBookmarked, handleToggleComplete }) {
   return (
@@ -19,7 +20,11 @@ function Destination({ image, name, location, description, likes, website, id, i
          <ThumbUpIcon />
          <p style={{fontWeight: '100'}}>|</p>
          <p>{!isBookmarked ? 'Bookmark' : 'Remove Bookmark'} </p>
-         <BookmarkBorderIcon onClick={() => handleToggleComplete(id)} />
+         {
+          !isBookmarked ? 
+          <BookmarkBorderIcon onClick={() => handleToggleComplete(id)} /> :
+          <BookmarkIcon onClick={() => handleToggleComplete(id)} />
+         }
          <p style={{fontWeight: '100'}}>|</p>
          <button className='button' onClick={() => window.open(website, '_blank', 'noopener,noreferrer')}>Website</button>
        </div>
