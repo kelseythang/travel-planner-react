@@ -6,7 +6,6 @@
       "image": "https://a.cdn-hotels.com/gdcs/production184/d1612/12c8731c-afae-4a11-a3e3-e792eaa16061.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Kyoto",
-      "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
     {
@@ -15,7 +14,6 @@
       "image": "https://dskyoto.s3.amazonaws.com/gallery/full/1514/5559/8500/04-20140407_NijoCastle-32.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Kyoto",
-      "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "castle"
     },
     {
@@ -24,35 +22,31 @@
       "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
     },
     {
       "id": 4,
-      "name": "Senso-ji Temple1",
-      "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
+      "name": "Fushimi Inari Shrine",
+      "image": "https://www.omamori.com/img/cms/temples-shrines/fushimi-inari-taisha.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
-      "type": "temple"
+      "location": "Kyoto",
+      "type": "shrine"
     },
     {
       "id": 5,
-      "name": "Senso-ji Temple2",
-      "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
+      "name": "Todaiji Temple",
+      "image": " https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg/1200px-T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
+      "location": "Nara",
       "type": "temple"
     },
     {
       "id": 6,
-      "name": "Senso-ji Temple3",
-      "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
+      "name": "Meiji Shrine",
+      "image": "https://travel.gaijinpot.com/app/uploads/sites/6/2019/05/Meiji-Jingu-2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
       "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
-      "type": "temple"
+      "type": "shrine"
     },
     {
       "id": 7,

@@ -21,12 +21,12 @@ function DestinationList() {
   });
   
   // updates destination based on search value field 
-  const updatedDestinations = searchValue === '' ? destinations : filteredDestinations;
+  const updatedDestinations = (searchValue === '') ? destinations : filteredDestinations;
 
   return (
     <>
       <SearchBar searchValue={searchValue} onSearchValueChange={setSearchValue} />
-      <div className="cards"> 
+      <div className='cards'> 
         {updatedDestinations.map(destination => {
           return (
             <Destination key={destination.name} image={destination.image} name={destination.name} location={destination.location} description={destination.description} />
