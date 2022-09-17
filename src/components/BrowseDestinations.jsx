@@ -3,21 +3,6 @@ import SearchBar from './SearchBar';
 import Destination from './Destination';
 
 function BrowseDestinations({ searchValue, setSearchValue, destinations, onBookmarkChange }) {
-  // // 
-  // function handleToggleComplete(id) {
-  //     const newState = destinations.map(obj => {
-  //       // 👇️ if id equals 2, update country property
-  //       if (obj.id === id) {
-  //         return {...obj, isBookmarked: !obj.isBookmarked};
-          
-  //       }
-  //       return obj;
-  //     })
-  //       // 👇️ otherwise return object as is
-  //     console.log(newState)
-  //     setDestinations(newState);
-    
-  // }
 
   return (
     <>

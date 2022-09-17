@@ -45,7 +45,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/destinations' element={<BrowseDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
-        <Route path='/mydestinations' element={<MyDestinations />} />
+        <Route path='/mydestinations' element={<MyDestinations destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
         <Route path='/submitnewlocation' element={<DestinationForm />} />
       </Routes>
     </Router>
