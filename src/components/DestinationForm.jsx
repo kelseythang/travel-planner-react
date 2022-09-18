@@ -20,13 +20,15 @@ function DestinationForm({ onAddDestination }) {
   // sets state to have controlled inputs
   const [formData, setFormValues] = useState(initialState);
 
+  // handles state change
   const handleInputChange = e => {
     setFormValues({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
-
+ 
+  // handles submission of form
   const handleSubmit = e => {
     e.preventDefault();
     fetch('http://localhost:3000/destinations', {
@@ -37,12 +39,12 @@ function DestinationForm({ onAddDestination }) {
       body: JSON.stringify(formData),
     })
       .then(res => res.json())
+      // updates destination state
       .then(data => onAddDestination(data));
-
+    
+    // clears form inputs after form submit
     setFormValues(initialState);
   }
-
-  
 
   return (
     <>
