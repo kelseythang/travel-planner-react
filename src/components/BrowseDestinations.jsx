@@ -6,7 +6,12 @@ function BrowseDestinations({ searchValue, setSearchValue, destinations, onBookm
 
   return (
     <>
-      <SearchBar searchValue={searchValue} onSearchValueChange={setSearchValue} title='BROWSE DESTINATIONS' />
+      <SearchBar 
+        searchValue={searchValue} 
+        onSearchValueChange={setSearchValue} 
+        title='BROWSE DESTINATIONS' 
+        subtitle='Search locations based on name, city, or location type' 
+      />
       <div className='cards'> 
         {destinations.map(destination => {
           return (

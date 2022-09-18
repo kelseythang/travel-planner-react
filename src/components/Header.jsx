@@ -1,15 +1,15 @@
 import React from 'react'
 import headerImg from '../assets/searchcover.jpeg'
 
-function Header({ title } ) {
+function Header({ title, subtitle } ) {
   return (
-    <>
+    <div className='header-container'>
       <div className='header'>
         <h1>{title}</h1>
-        <p>Search by location name, city, or destination type</p>
+        <p>{subtitle}</p>
       </div>
       <img src={headerImg}></img>
-    </>
+    </div>
   )
 }
 

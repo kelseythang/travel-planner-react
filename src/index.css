@@ -44,11 +44,11 @@ nav a:hover {
   margin: 50px; 
   position: absolute;
   top: 40%;
+  color: white;
 }
 
 .home h1 {
  font-size: 36px;
- color: white;
 }
 
 .home h2 {
@@ -143,13 +143,13 @@ h3 {
 }
 
 /* styles for destination search bar */
-.search-container {
+.header-container {
   position: relative;
   display: block;
   margin: 0px 0px 20px 0px;
 }
 
-.search-container img {
+.header-container img {
   position: relative;
   height: 225px;
   width: 100%;

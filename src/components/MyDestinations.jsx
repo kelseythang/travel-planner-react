@@ -1,14 +1,17 @@
 import React from 'react';
 import Destination from './Destination';
-import SearchBar from './SearchBar';
+import Header from './Header';
 
-function MyDestinations({ searchValue, setSearchValue, destinations, onBookmarkChange  }) {
+function MyDestinations({ destinations, onBookmarkChange  }) {
   const bookmarkedDestinations = destinations.filter(destination => destination.isBookmarked);
   console.log(bookmarkedDestinations)
 
   return (
     <>
-      <SearchBar searchValue={searchValue} onSearchValueChange={setSearchValue} title='SAVED DESTINATIONS' />
+      <Header
+        title='SAVED DESTINATIONS'
+        subtitle='Review Saved Destinations'
+      />
       <div className='cards'> 
         {bookmarkedDestinations.map(destination => {
           return (

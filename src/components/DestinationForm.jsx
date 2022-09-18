@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from './Header';
 
 function DestinationForm() {
   return (
-    <div>LocationForm</div>
+    <>
+      <Header title='SUBMIT A NEW LOCATION' subtitle='Send a Destination to Add to Our Database' />
+    </>
   )
 }
 
