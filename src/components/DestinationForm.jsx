@@ -4,33 +4,45 @@ import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Header from './Header';
 
-// sets initial state for form
-const initialState = {
-  name: '',
-  image: '',
-  description: '',
-  location: '',
-  type: '',
-  likes: 0,
-  website: '',
-  isBookmarked: false
-}
+function DestinationForm({ onAddDestination }) {
+  // sets initial data for form
+  const initialState = {
+    name: '',
+    image: '',
+    description: '',
+    location: '',
+    type: '',
+    likes: 0,
+    website: '',
+    isBookmarked: false
+  }
 
-function DestinationForm() {
-  const [formValues, setFormValues] = useState(initialState);
+  // sets state to have controlled inputs
+  const [formData, setFormValues] = useState(initialState);
 
   const handleInputChange = e => {
     setFormValues({
-      ...formValues,
+      ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(formValues)
+    fetch('http://localhost:3000/destinations', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+      .then(res => res.json())
+      .then(data => onAddDestination(data));
+
     setFormValues(initialState);
   }
+
+  
 
   return (
     <>
@@ -45,7 +57,7 @@ function DestinationForm() {
                 InputLabelProps={{ shrink: true }}
                 fullWidth
                 name='name'
-                value={formValues.name}
+                value={formData.name}
                 onChange={handleInputChange}
               />
             </Grid>
@@ -56,7 +68,7 @@ function DestinationForm() {
               InputLabelProps={{ shrink: true }}
               fullWidth
               name='location'
-              value={formValues.location}
+              value={formData.location}
               onChange={handleInputChange}
               />
             </Grid>
@@ -69,7 +81,7 @@ function DestinationForm() {
                 rows={4}
                 fullWidth
                 name='description'
-                value={formValues.description}
+                value={formData.description}
                 onChange={handleInputChange}
               />
             </Grid>
@@ -81,7 +93,7 @@ function DestinationForm() {
                 helperText="Example: garden, castle, shrine"
                 fullWidth
                 name='type'
-                value={formValues.type}
+                value={formData.type}
                 onChange={handleInputChange}
               />
             </Grid>
@@ -92,7 +104,7 @@ function DestinationForm() {
                 InputLabelProps={{ shrink: true }}
                 fullWidth
                 name='website'
-                value={formValues.website}
+                value={formData.website}
                 onChange={handleInputChange}
               />
             </Grid>
@@ -103,7 +115,7 @@ function DestinationForm() {
                 InputLabelProps={{ shrink: true }}
                 fullWidth
                 name='image'
-                value={formValues.image}
+                value={formData.image}
                 onChange={handleInputChange}
               />
             </Grid>

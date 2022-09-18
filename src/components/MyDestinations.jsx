@@ -4,7 +4,6 @@ import Header from './Header';
 
 function MyDestinations({ destinations, onBookmarkChange  }) {
   const bookmarkedDestinations = destinations.filter(destination => destination.isBookmarked);
-  console.log(bookmarkedDestinations)
 
   return (
     <>

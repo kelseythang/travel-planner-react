@@ -9,9 +9,10 @@ import '../index.css';
 
 
 function App() {
+  // sets state for application
   const [destinations, setDestinations] = useState([]); 
   const [searchValue, setSearchValue] = useState('');
-
+  
   // useEffect to fetch destinations
   useEffect(() => {
     fetch('http://localhost:3000/destinations')
@@ -28,8 +29,13 @@ function App() {
   // updates destination based on search value field 
   const updatedDestinations = (searchValue === '') ? destinations : filteredDestinations;
 
+  // updates destinations based on form submission
+  const handleAddDestination = newDestination => {
+    setDestinations([...destinations, newDestination]);
+  }
+  
   // toggles isBookmarked 
-  function handleBookmarkChange(id) {
+  const handleBookmarkChange = id => {
     const updateBookmark = destinations.map(item => {
       if (item.id === id) {
         return {...item, isBookmarked: !item.isBookmarked};
@@ -46,7 +52,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/destinations' element={<BrowseDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
         <Route path='/mydestinations' element={<MyDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
-        <Route path='/submitnewlocation' element={<DestinationForm />} />
+        <Route path='/submitnewlocation' element={<DestinationForm onAddDestination={handleAddDestination} />} />
       </Routes>
     </Router>
   )
