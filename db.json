@@ -81,28 +81,6 @@
       "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
-    },
-    {
-      "name": "s",
-      "image": "s",
-      "description": "s",
-      "location": "s",
-      "type": "s",
-      "likes": 0,
-      "website": "s",
-      "isBookmarked": false,
-      "id": 9
-    },
-    {
-      "name": "g",
-      "image": "g",
-      "description": "g",
-      "location": "g",
-      "type": "g",
-      "likes": 0,
-      "website": "g",
-      "isBookmarked": false,
-      "id": 10
     }
   ]
 }
