@@ -81,6 +81,17 @@
       "location": "Tokyo",
       "website": "https://www.kiyomizudera.or.jp/en/",
       "type": "temple"
+    },
+    {
+      "name": "Kasuga Taisha",
+      "image": "https://www.japan-guide.com/g19/4102_02.jpg",
+      "description": "Kasuga Taisha (春日大社) is Nara's most celebrated shrine. It was established at the same time as the capital and is dedicated to the deity responsible for the protection of the city. Kasuga Taisha was also the tutelary shrine of the Fujiwara, Japan's most powerful family clan during most of the Nara and Heian Periods. Like the Ise Shrines, Kasuga Taisha had been periodically rebuilt every 20 years for many centuries.",
+      "location": "Nara",
+      "type": "shrine",
+      "likes": 0,
+      "website": "https://www.kasugataisha.or.jp/en/about_en/",
+      "isBookmarked": false,
+      "id": 9
     }
   ]
 }
