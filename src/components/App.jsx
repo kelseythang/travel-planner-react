@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './Home';
 import BrowseDestinations from './BrowseDestinations';
@@ -46,7 +46,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -54,7 +54,7 @@ function App() {
         <Route path='/mydestinations' element={<MyDestinations searchValue={searchValue} setSearchValue={setSearchValue} destinations={updatedDestinations} onBookmarkChange={handleBookmarkChange} />} />
         <Route path='/submitnewlocation' element={<DestinationForm onAddDestination={handleAddDestination} />} />
       </Routes>
-    </Router>
+    </>
   )
 }
 
