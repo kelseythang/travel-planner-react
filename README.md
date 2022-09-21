@@ -15,7 +15,7 @@ React.js <br>
 Future updates will include:
 * Destinations: Increase the likes with user interaction
 * Saved Destinations: Placeholder screen when there are no bookmarks
-* Destinatin Form: Thank-you submission for the form
+* Destination Form: Thank-you submission for the form
 
 
 ## Contributing
