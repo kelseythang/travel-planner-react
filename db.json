@@ -52,7 +52,8 @@
       "location": "Nara",
       "type": "temple",
       "likes": "12,587",
-      "website": ""
+      "website": "https://www.todaiji.or.jp/en/",
+      "isBookmarked": false
     },
     {
       "id": 6,
@@ -62,25 +63,8 @@
       "location": "Tokyo",
       "type": "shrine",
       "likes": "22,165",
-      "website": ""
-    },
-    {
-      "id": 7,
-      "name": "Senso-ji Temple4",
-      "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
-      "type": "temple"
-    },
-    {
-      "id": 8,
-      "name": "Senso-ji Temple5",
-      "image": "https://ak.picdn.net/offset/photos/5c38c897d7ffa17debdf9fc3/medium/photo.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi arcu, molestie vitae diam non, egestas blandit nunc. Aenean dapibus tellus vitae felis laoreet mollis. Sed dignissim felis eros, id euismod est dictum a.",
-      "location": "Tokyo",
-      "website": "https://www.kiyomizudera.or.jp/en/",
-      "type": "temple"
+      "website": "https://www.meijijingu.or.jp/en/",
+      "isBookmarked": false
     },
     {
       "name": "Kasuga Taisha",
@@ -88,10 +72,43 @@
       "description": "Kasuga Taisha (春日大社) is Nara's most celebrated shrine. It was established at the same time as the capital and is dedicated to the deity responsible for the protection of the city. Kasuga Taisha was also the tutelary shrine of the Fujiwara, Japan's most powerful family clan during most of the Nara and Heian Periods. Like the Ise Shrines, Kasuga Taisha had been periodically rebuilt every 20 years for many centuries.",
       "location": "Nara",
       "type": "shrine",
-      "likes": 0,
+      "likes": "13,278",
       "website": "https://www.kasugataisha.or.jp/en/about_en/",
       "isBookmarked": false,
+      "id": 7
+    },
+    {
+      "name": "Osaka Castle",
+      "image": "https://www.japan-guide.com/g18/4000_top.jpg",
+      "description": "The construction of Osaka Castle (大阪城, Ōsakajō) started in 1583 on the former site of the Ishiyama Honganji Temple, which had been destroyed by Oda Nobunaga thirteen years earlier. Toyotomi Hideyoshi intended the castle to become the center of a new, unified Japan under Toyotomi rule. It was the largest castle at the time.",
+      "location": "Osaka",
+      "type": "castle",
+      "likes": "20,529",
+      "website": "https://osakacastle.net/",
+      "isBookmarked": false,
+      "id": 8
+    },
+    {
+      "name": "Jozankei Onsen",
+      "image": "https://www.japan-guide.com/g21/6745_01.jpg",
+      "description": "Jozankei Onsen (定山渓温泉, Jōzankei Onsen) is located inside Shikotsu-Toya National Park between the high cliffs of the Toyohira River. The town is only one hour outside central Sapporo, making it a popular side trip from the city. As a result, Jozankei is rather developed compared to smaller onsen towns in Hokkaido.",
+      "location": "Jozankei",
+      "type": "onsen",
+      "likes": "18,932",
+      "website": "https://jozankei.jp/en/",
+      "isBookmarked": false,
       "id": 9
+    },
+    {
+      "name": "Hiroshima Castle",
+      "image": "https://www.japan-guide.com/g21/3042_21.jpg",
+      "description": "Hiroshima Castle (広島城, Hiroshimajō), also called the Carp Castle, is a good example of a castle built on a plain in the center of a city as opposed to hilltop and mountaintop castles. Its main keep is five stories tall, and its grounds are surrounded by a moat. Also within the castle's precincts are a shrine, some ruins and a few reconstructed buildings of the Ninomaru (second circle of defense).",
+      "location": "Hiroshima",
+      "type": "castle",
+      "likes": "25,283",
+      "website": "https://www.rijo-castle.jp/",
+      "isBookmarked": false,
+      "id": 10
     }
   ]
 }
