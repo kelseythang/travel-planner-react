@@ -109,6 +109,28 @@
       "website": "https://www.rijo-castle.jp/",
       "isBookmarked": false,
       "id": 10
+    },
+    {
+      "name": "Inner Shrine",
+      "image": "https://www.japan-guide.com/g21/4300_01.jpg",
+      "description": "The Inner Shrine (内宮, Naikū) is one of the two main shrines making up the Ise Shrines in Ise City. Formally known as Kotai Jingu, the Inner Shrine enshrines Shinto's most venerated deity, the Sun Goddess (Amaterasu Omikami), and is considered Japan's most sacred shrine.",
+      "location": "Ise City",
+      "type": "shrine",
+      "likes": 0,
+      "website": "https://www.isejingu.or.jp/en/",
+      "isBookmarked": false,
+      "id": 11
+    },
+    {
+      "name": "Kenrokuen Garden",
+      "image": "https://www.japan-guide.com/g19/4200_01.jpg",
+      "description": "Kenrokuen (兼六園) in Kanazawa is justifiably classified as one of Japan's \"three most beautiful landscape gardens\" alongside Mito's Kairakuen and Okayama's Korakuen. The spacious grounds used to be the outer garden of Kanazawa Castle and were constructed by the ruling Maeda family over a period of nearly two centuries.",
+      "location": "Kanazawa",
+      "type": "garden",
+      "likes": 0,
+      "website": "http://www.pref.ishikawa.jp/siro-niwa/kenrokuen/e/",
+      "isBookmarked": false,
+      "id": 12
     }
   ]
 }
