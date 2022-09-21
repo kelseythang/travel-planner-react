@@ -1,6 +1,8 @@
 ## Overview
 
-Enter Data
+Destination Japan is a single page application built using React.js and React Router v6. Users can 
+interact with the website through the navigation bar, by bookmarking destinations, and by submitting new 
+locations to the database. 
 
 ## API Documentation and Frameworks
 
@@ -11,7 +13,10 @@ React.js <br>
 ## Enhancements
 
 Future updates will include:
-* Thank-you submission for the form
+* Destinations: Increase the likes with user interaction
+* Saved Destinations: Placeholder screen when there are no bookmarks
+* Destinatin Form: Thank-you submission for the form
+
 
 ## Contributing
 
