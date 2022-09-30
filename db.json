@@ -131,6 +131,17 @@
       "website": "http://www.pref.ishikawa.jp/siro-niwa/kenrokuen/e/",
       "isBookmarked": false,
       "id": 12
+    },
+    {
+      "name": "Yasukuni Shrine",
+      "image": "https://www.japan-guide.com/g18/2321_01.jpg",
+      "description": "Yasukuni Shrine (靖国神社, Yasukuni Jinja) is a Shinto shrine in central Tokyo that commemorates Japan's war dead. The shrine was founded in 1869 with the purpose of enshrining those who have died in war for their country and sacrificed their lives to help build the foundation for a peaceful Japan.\n\n",
+      "location": "Tokyo",
+      "type": "shrine",
+      "likes": 0,
+      "website": "https://www.yasukuni.or.jp/english/",
+      "isBookmarked": false,
+      "id": 13
     }
   ]
 }

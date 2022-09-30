@@ -7,7 +7,6 @@ import MyDestinations from './MyDestinations';
 import DestinationForm from './DestinationForm';
 import '../index.css';
 
-
 function App() {
   // sets state for application
   const [destinations, setDestinations] = useState([]); 
